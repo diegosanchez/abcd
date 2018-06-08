@@ -18,7 +18,7 @@ public class FooTest {
 
     @Test
     public void doFooShouldReturnFooX() {
-        HashMap<Integer, MiClase> map = new HashMap<>();
+        HashMap<Integer, String> map = new HashMap<>();
 
         map.put(1, "a");
         map.put(2, "b");
@@ -28,13 +28,12 @@ public class FooTest {
 
 
     }
-	/*
+
 	@Test
 	public void doBarShouldReturnBar(){
         Foo foo = new Foo();
         String result = foo.doBar();
         Assert.assertEquals("Bar", result);
 	}
-	*/
 
 }
